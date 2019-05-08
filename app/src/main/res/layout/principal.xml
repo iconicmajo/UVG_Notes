@@ -72,6 +72,10 @@
             android:typeface="serif"
             android:textColor="#282C26"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" tools:layout_editor_absoluteY="495dp"
-            tools:layout_editor_absoluteX="157dp" android:id="@+id/button"/>
+            android:layout_height="wrap_content"
+            android:id="@+id/button" android:layout_marginBottom="188dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="158dp" android:layout_marginRight="158dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="158dp"
+            android:layout_marginStart="158dp"/>
 </android.support.constraint.ConstraintLayout>
