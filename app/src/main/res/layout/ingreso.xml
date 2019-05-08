@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+
+    <TextView
+            android:text="New entry"
+            android:textSize="40dp"
+            android:typeface="serif"
+            android:textColor="#6CDD28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="52dp"
+            tools:layout_editor_absoluteX="48dp" android:id="@+id/textView6"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:typeface="serif"
+            android:textColor="#282C26"
+            android:textSize="20dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            tools:layout_editor_absoluteY="164dp" tools:layout_editor_absoluteX="70dp" android:id="@+id/editText"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:typeface="serif"
+            android:textColor="#282C26"
+            android:textSize="20dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            tools:layout_editor_absoluteY="291dp" tools:layout_editor_absoluteX="70dp" android:id="@+id/editText4"/>
+    <TextView
+            android:text="Name"
+            android:typeface="serif"
+            android:textColor="#282C26"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="129dp"
+            tools:layout_editor_absoluteX="47dp" android:id="@+id/textView7"/>
+    <TextView
+            android:text="Description"
+            android:typeface="serif"
+            android:textColor="#282C26"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="241dp"
+            tools:layout_editor_absoluteX="47dp" android:id="@+id/textView8"/>
+    <CalendarView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="361dp"
+            tools:layout_editor_absoluteX="37dp" android:id="@+id/calendarView"/>
+    <Button
+            android:text="Done"
+            android:typeface="serif"
+            android:textColor="#282C26"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="67dp"
+            tools:layout_editor_absoluteX="280dp" android:id="@+id/button2"/>
+</android.support.constraint.ConstraintLayout>
